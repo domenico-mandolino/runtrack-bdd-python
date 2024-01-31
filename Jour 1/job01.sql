@@ -1,3 +1,5 @@
+--installer paquet
+
 FtpWeb@devweb:~$ sudo mysql_secure_installation
 /usr/bin/mysql_secure_installation: Deprecated program name. It will be removed in a future release, use 'mariadb-secure-installation' instead
 
@@ -61,9 +63,7 @@ Reloading the privilege tables will ensure that all changes made so far
 will take effect immediately.
 
 Reload privilege tables now? [Y/n] y
- ... Success!
-
-Cleaning up...
+ ... Success!--ajutes valeures à la table 
 
 All done!  If you've completed all of the above steps, your MariaDB
 installation should now be secure.

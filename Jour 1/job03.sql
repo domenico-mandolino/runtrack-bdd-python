@@ -1,15 +1,17 @@
-MariaDB [(none)]> CREATE TABLE LaPlateforme.eutidaint ( id INT, nom VARCHAR(225), prenom VARCHAR(25), age INT, email VARCHAR(255));
-Query OK, 0 rows affected (0,024 sec)
+---creer une table 
+MariaDB [LaPlateforme]> create table etudiant (id INT AUTO_INCREMENT PRIMARY KEY, nom VARCHAR(255) NOT NULL, prenom VARCHAR(25) NOT NULL, age INT NOT NULL, email VARCHAR(255) NOT NULL);
+Query OK, 0 rows affected (0,006 sec)
 
-MariaDB [(none)]> SHOW TABLES FROM LaPlateforme;
+MariaDB [LaPlateforme]> show tables;
 +------------------------+
 | Tables_in_LaPlateforme |
 +------------------------+
-| eutidaint              |
+| etudiant               |
 +------------------------+
-1 row in set (0,003 sec)
+1 row in set (0,000 sec)
 
-MariaDB [(none)]> 
+MariaDB [LaPlateforme]> 
+
 
 
 MariaDB [(none)]> Ctrl-C -- exit!
